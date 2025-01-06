@@ -6,9 +6,10 @@ export const s = StyleSheet.create({
     backgroundColor: colors.gray[100]
   },
   content: {
-    gap: 12,
-    padding: 24,
-    paddingBottom: 100
+    gap: 10,
+    paddingLeft: 24,
+    paddingRight: 24,
+    paddingBottom: 10
   },
   indicator: {
     width: 80,
@@ -19,6 +20,6 @@ export const s = StyleSheet.create({
     color: colors.gray[600],
     fontSize: 16,
     fontFamily: fontFamily.regular,
-    marginBottom: 16
+    marginBottom: 4
   }
 });
